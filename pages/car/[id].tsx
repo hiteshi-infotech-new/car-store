@@ -41,11 +41,11 @@ const Car: NextPage = (data: any) => {
   )
 }
 
-export async function getServerSideProps({params,  req, res}) {
-  // res.setHeader(
-  //   'Cache-Control',
-  //   'public, s-maxage=3600, stale-while-revalidate=3600'
-  // )
+export async function getServerSideProps({params,  req, res}: any) {
+  res.setHeader(
+    'Cache-Control',
+    'public, s-maxage=3600, stale-while-revalidate=3600'
+  )
 
   // Fetch data from external API
   const detailsRes = await fetch(`https://api.staging.myautochek.com/v1/inventory/car/${params.id}`);

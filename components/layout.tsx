@@ -4,7 +4,7 @@ import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
 import Suggestions from "../components/suggestion";
 
-export default function Layout({ content }) {
+export default function Layout({ content }: any) {
   return (
     <>
       <Head>

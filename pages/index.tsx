@@ -37,7 +37,7 @@ const Home: NextPage = (data: any) => {
   )
 }
 
-export async function getServerSideProps({ req, res }) {
+export async function getServerSideProps({ req, res }: any) {
   res.setHeader(
     'Cache-Control',
     'public, s-maxage=120, stale-while-revalidate=120'

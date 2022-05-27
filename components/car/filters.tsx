@@ -17,8 +17,8 @@ export default function Filters({ brands }: any) {
             </form>
             <div className="left-side py-2">
               <ul>
-                {brands.map((brand: Brand) => (
-                  <li>
+                {brands.map((brand: Brand, idx: number) => (
+                  <li key={`brand_${idx}`}>
                     <input type="checkbox" className="checked" />
                     <span className="span">{brand.name}</span>
                   </li>  

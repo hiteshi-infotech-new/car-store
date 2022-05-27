@@ -431,11 +431,11 @@ export default function Top() {
               <form action="#" method="post">
                 <div className="form-group">
                   <label className="col-form-label">Username</label>
-                  <input type="text" className="form-control" placeholder=" " name="Name" required="" />
+                  <input type="text" className="form-control" placeholder=" " name="Name" required />
                 </div>
                 <div className="form-group">
                   <label className="col-form-label">Password</label>
-                  <input type="password" className="form-control" placeholder=" " name="Password" required="" />
+                  <input type="password" className="form-control" placeholder=" " name="Password" required />
                 </div>
                 <div className="right-w3l">
                   <input type="submit" className="form-control" value="Log in" />
@@ -446,7 +446,7 @@ export default function Top() {
                     <label className="custom-control-label" htmlFor="customControlAutosizing">Remember me?</label>
                   </div>
                 </div>
-                <p className="text-center dont-do mt-3">Don't have an account?
+                <p className="text-center dont-do mt-3">Don&apos;t have an account?
                   <a href="#" data-toggle="modal" data-target="#exampleModal2">
                     Register Now</a>
                 </p>
@@ -469,19 +469,19 @@ export default function Top() {
               <form action="#" method="post">
                 <div className="form-group">
                   <label className="col-form-label">Your Name</label>
-                  <input type="text" className="form-control" placeholder=" " name="Name" required="" />
+                  <input type="text" className="form-control" placeholder=" " name="Name" required />
                 </div>
                 <div className="form-group">
                   <label className="col-form-label">Email</label>
-                  <input type="email" className="form-control" placeholder=" " name="Email" required="" />
+                  <input type="email" className="form-control" placeholder=" " name="Email" required />
                 </div>
                 <div className="form-group">
                   <label className="col-form-label">Password</label>
-                  <input type="password" className="form-control" placeholder=" " name="Password" id="password1" required="" />
+                  <input type="password" className="form-control" placeholder=" " name="Password" id="password1" required />
                 </div>
                 <div className="form-group">
                   <label className="col-form-label">Confirm Password</label>
-                  <input type="password" className="form-control" placeholder=" " name="Confirm Password" id="password2" required="" />
+                  <input type="password" className="form-control" placeholder=" " name="Confirm Password" id="password2" required />
                 </div>
                 <div className="right-w3l">
                   <input type="submit" className="form-control" value="Register" />

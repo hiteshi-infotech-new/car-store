@@ -5,7 +5,7 @@ export default function Suggestions({ data }: any) {
         <div className="container py-xl-4 py-lg-2">
           <div className="row">
             {data.map((item: any, idx: number) => (
-              <div className={`col-lg-6 ${idx > 0 ? 'mt-lg-0 mt-5' : ''}`}>
+              <div key={`sugg_${idx}`} className={`col-lg-6 ${idx > 0 ? 'mt-lg-0 mt-5' : ''}`}>
                 <div className="join-agile text-left p-4">
                   <div className="row">
                     <div className="col-sm-7 offer-name">

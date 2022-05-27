@@ -6,7 +6,7 @@ export default function Info() {
 
           <h2 className="footer-top-head-w3l font-weight-bold mb-2">Cars :</h2>
           <p className="footer-main mb-4">
-            If you're considering a new car, looking for a powerful new car, we make it easy to
+            If you&apos;re considering a new car, looking for a powerful new car, we make it easy to
             find exactly what you need at a price you can afford. We offer Every Day Low Prices.</p>
 
           <div className="row w3l-grids-footer border-top border-bottom py-sm-4 py-3">

@@ -78,7 +78,7 @@ export default function Footer() {
               <p className="mb-3">Free Delivery on your first order!</p>
               <form action="#" method="post">
                 <div className="form-group">
-                  <input type="email" className="form-control" placeholder="Email" name="email" required="" />
+                  <input type="email" className="form-control" placeholder="Email" name="email" required />
                   <input type="submit" value="Go" />
                 </div>
               </form>
